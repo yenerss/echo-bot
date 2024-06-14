@@ -6,7 +6,11 @@ on:
     branches: [ main ]
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: 
+    - self-hosted
+    - laber-1
+    - labar-2
+    
     steps:
     - name: Git pull
       run: |
