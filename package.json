@@ -9,7 +9,7 @@
     "@discordjs/voice": "^0.10.0",
     "@m3rcena/weky": "^7.0.0",
     "anime-actions": "^1.1.0",
-    "axios": "^0.27.2",
+    "axios": "^1.7.2",
     "booru": "^2.6.0",
     "bufferutil": "^4.3.2",
     "canvacord": "^6.0.0",
