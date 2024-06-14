@@ -1,32 +1,38 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: Bug report
-labels: bug
-assignees: yener5855
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
-## **What's your nodejs Version.**
-> Show the output of: `node -v`
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-## **What's the version you downloaded the bot?**
-> From the releases e.g.: 10.2.0
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-## **Desktop (please complete the following information):**
-> - OS: [e.g. iOS]
-> - Version [e.g. 22]
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-## **Describe the bug**
-> A clear and concise description of what the bug is.
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-## **To Reproduce**
-> Steps to reproduce the behavior e.g:
-1. Execute the Command '....'
-2. See error
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
 
-## **Expected behavior**
-> A clear and concise description of what you expected to happen.
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
 
-## **Additional context, text and screenshots!**
-> Add any other context about the problem here.
+**Additional context**
+Add any other context about the problem here.
