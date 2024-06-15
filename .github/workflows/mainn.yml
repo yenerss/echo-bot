@@ -1,0 +1,24 @@
+name: Create and Merge Github Pull Request
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  delete-s3:
+  runs-on: runs-on: self-hosted
+  steps:
+    - uses: actions/checkout@master
+    - uses: 3dwardCh3nG/github-pull-request@v1
+      with:
+        github_token: ${{ secrets.GH_TOKEN }}
+        repo_owner: 'yenerss'
+        repo_name: 'github-pull-request'
+        source_branch: 'master'
+        target_branch: 'develop'
+        pr_title: 'Merge PR from Master to Develop'
+        require_middle_branch: true
+        auto_merge: true
+        max_merge_retries: 60
+        merge_retry_interval: 60
